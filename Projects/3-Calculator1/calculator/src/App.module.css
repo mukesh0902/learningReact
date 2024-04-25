@@ -1,0 +1,19 @@
+* {
+  background: rgb(38, 38, 38);
+}
+
+.calculator {
+  border: 2px solid rgb(57, 55, 55);
+  width: 300px;
+  border-radius: 5px;
+  background: #282727;
+  margin: 5% 45%;
+  box-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+h4 {
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 10px;
+  background: transparent;
+}
