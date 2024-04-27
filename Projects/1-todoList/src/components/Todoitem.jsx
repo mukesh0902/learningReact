@@ -1,3 +1,5 @@
+import { AiFillDelete } from "react-icons/ai";
+
 function Todoitemcompo({ todoName, todoDate, onDeleteClick }) {
   return (
     <div className="row myrow align-items-center">
@@ -9,7 +11,7 @@ function Todoitemcompo({ todoName, todoDate, onDeleteClick }) {
           className="btn btn-danger mybtn"
           onClick={() => onDeleteClick(todoName)}
         >
-          Delete
+          <AiFillDelete />
         </button>
       </div>
     </div>
